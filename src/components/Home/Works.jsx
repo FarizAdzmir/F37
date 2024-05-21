@@ -1,8 +1,8 @@
-import TheCrate from "/src/assets/images/The-Crate.webp";
+import Apple from "/src/assets/images/Apple.webp";
 import Kembara from "/src/assets/images/Kembara.webp";
 import IQLAS from "/src/assets/images/IQLAS.webp";
 import RECA from "/src/assets/images/RECA.webp";
-import Brainwave from "/src/assets/images/Brainwave.webp";
+import TheCrate from "/src/assets/images/The-Crate.webp";
 import Projects from "../UI/Projects";
 import Heading from "../UI/Heading";
 
@@ -18,13 +18,13 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://the-crate.payloadcms.app/"
-            img={TheCrate}
-            alt="The Crate"
-            name="The Crate"
-            type="E-Commerce • CMS • Frontend Development"
-            year="2023"
-            tools="NextJS • TypeScript • Stripe • PayloadCMS"
+            link="https://apple-my.vercel.app/"
+            img={Apple}
+            alt="Malaysia Apple Store"
+            name="Apple"
+            type="Frontend Development"
+            year="2024"
+            tools="NextJS • Three JS • GSAP • Tailwind CSS"
 
           />
         </div>
@@ -54,13 +54,13 @@ export default function Works({ forwardedRef }) {
         {/* Project #3 */}
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
         <Projects
-            link="https://brainwave-app.vercel.app/"
-            img={Brainwave}
-            alt="Brainwave"
-            name="Brainwave"
-            type="Web Design • Frontend Development"
+            link="https://the-crate.vercel.app/"
+            img={TheCrate}
+            alt="hThe Crate"
+            name="The Crate"
+            type="E-Commerce • CMS • Frontend Development"
             year="2022"
-            tools="NextJS • TailwindCSS"
+            tools="NextJS • TypeScript • Stripe • PayloadCMS"
           />
         </div>
         <div className="col-span-1 h-fit md:col-span-4">
